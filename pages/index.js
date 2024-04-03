@@ -21,8 +21,8 @@ export default function Home() {
     return (
         <Layout className="">
             <SEO
-                title="NutriTrack - A landing page template 🚀"
-                description="Discover NutriTrack, the effortless way to plan your meals with the power of Notion. Streamline your nutrition journey and achieve your health goals with ease."
+                title="MechDX one stop Diagnostic tool for Chillers🚀"
+                description="MechDX is a one stop Diagnostic tool for Chillers. It is a web application that helps you to diagnose and troubleshoot your chiller problems. It is a web application that helps you to diagnose and troubleshoot your chiller problems."
             />
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
                 {/* { Page Banner } */}
@@ -40,17 +40,18 @@ export default function Home() {
                             <PageTitle
                                 className="text-center mx-auto"
                                 type="default"
-                            >
-                                Simplify Your Nutrition Journey with NutriTrack
-                            </PageTitle>
+                            ></PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Hey there! Welcome to NutriTrack, the
-                                    ultimate nutrition meal planner powered by
-                                    Notion. We&apos;ve got some awesome features
-                                    lined up to make your nutrition journey a
-                                    piece of cake (pun intended). Check them
-                                    out:
+                                    Hey there! Welcome to MechDX, is a
+                                    comprehensive app for efficient chiller
+                                    management. It offers real-time monitoring,
+                                    alerts for maintenance and faults, and
+                                    performance analysis. With energy
+                                    consumption tracking and user-friendly
+                                    interface, it ensures optimal operation and
+                                    enhances productivity in industrial and
+                                    commercial settings. Check them out:
                                 </p>
                             </Content>
                             <ContentImage />

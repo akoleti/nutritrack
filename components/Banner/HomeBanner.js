@@ -1,3 +1,4 @@
+import { Accordion } from "@components/Accordion";
 import { BadgeGroup, BadgeIcon, BadgeMessage } from "@components/Badge";
 import { Button, ButtonGroup } from "@components/Button";
 import { Content } from "@components/Content";
@@ -14,23 +15,23 @@ export const HomeBanner = () => {
                 {/* Appear First */}
                 <MotionBTTContainer transition={{ delay: 0.2, duration: 0.5 }}>
                     <BadgeGroup alignment="center">
-                        <BadgeMessage>Discover NutriTrack!</BadgeMessage>
-                        <BadgeIcon icon="game-icons:meal" />
+                        <BadgeMessage>Discover MechDX!</BadgeMessage>
+                        <BadgeIcon icon="game-icons:gears" />
                     </BadgeGroup>
                 </MotionBTTContainer>
                 {/* Appear Second */}
                 <MotionBTTContainer transition={{ delay: 0.4, duration: 0.5 }}>
                     <PageTitle className="text-center mx-auto" type="heavy">
-                        The effortless way to plan your meals with the power of
-                        Notion.
+                        Diagnostic tool for Chillers
                     </PageTitle>
                 </MotionBTTContainer>
                 {/* Appear Third */}
                 <MotionBTTContainer transition={{ delay: 0.6, duration: 0.5 }}>
                     <Content className="text-center" alignment="center">
                         <p>
-                            Streamline your nutrition journey and achieve your
-                            health goals with ease.{" "}
+                            Provides detailed information to Facility Managers
+                            and Technicians to diagnose and troubleshoot chiller
+                            problems.
                         </p>
                     </Content>
                     <div className="mt-6 mb-16 text-center">
@@ -41,12 +42,13 @@ export const HomeBanner = () => {
                                 href="https://github.com/christian-luntok/nutritrack"
                                 className="btn btn--secondary"
                             >
-                                Get Template
+                                Sign in
                                 <Icon icon="material-symbols:arrow-forward-rounded" />
                             </a>
                         </ButtonGroup>
                     </div>
                 </MotionBTTContainer>
+
                 {/* Appear Fourth */}
                 <MotionBTTContainer transition={{ delay: 0.8, duration: 0.5 }}>
                     <div className="page-banner--image">
